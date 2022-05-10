@@ -1,20 +1,37 @@
-<p>
+  <p>
     <mat-toolbar class="nia">
-        <img src="https://images.vexels.com/media/users/3/143184/isolated/preview/c49a020b741b311e328cb3184943c3ac-icono-de-carne-carne-de-res-pescado.png" height="40">
-      <span style="margin-left: 10px;">Grandes y Jugosos</span>
-      <span class="example-spacer"></span>
-      <button mat-button [matMenuTriggerFor]="menu" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"><mat-icon>menu</mat-icon></button>
-      <mat-menu #menu="matMenu">
-        <button mat-menu-item>Item 1</button>
-        <button mat-menu-item>Item 2</button>
-      </mat-menu>      
-
-
-      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-        <mat-icon>favorite</mat-icon>
-      </button>
-      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-        <mat-icon>share</mat-icon>
-      </button>
+      <mat-toolbar-row>
+        <img src="https://cdn-icons-png.flaticon.com/512/7452/7452627.png" height="40">
+        <span style="margin-left: 10px;">Grandes Y Jugosos</span>
+        <span class="example-spacer"></span>
+        <span>Contactanos <a href="tel:#" style="color: white;">2995055050</a></span>
+        <button mat-button [matMenuTriggerFor]="menu" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"><mat-icon>menu</mat-icon></button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>Item 1</button>
+            <button mat-menu-item>Item 2</button>
+          </mat-menu> 
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+          <mat-icon>favorite</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+          <mat-icon>share</mat-icon>
+        </button> 
+      </mat-toolbar-row>
+  
+      <mat-toolbar-row>
+        <button mat-stroked-button style="margin-right: 50px; margin-left: 50px;">Vacunos</button>
+        <button mat-stroked-button style="margin-right: 50px;">Avez</button>
+        <button mat-stroked-button style="margin-right: 50px;">Cerdos</button>
+        <button mat-stroked-button style="margin-right: 50px;">Preparados</button>
+        <button mat-stroked-button [matMenuTriggerFor]="menuFiambreria" style="margin-right: 50px;">Fiambreria</button>
+        <button mat-stroked-button style="margin-right: 50px;">Complementos</button>
+        <button mat-stroked-button style="margin-right: 50px;">Combos</button>
+        <button mat-stroked-button style="margin-right: 50px;">Ofertas</button>
+        <button mat-stroked-button style="margin-right: 50px;">Locales</button>
+      </mat-toolbar-row>
     </mat-toolbar>
   </p>
+  <mat-menu #menuFiambreria="matMenu">
+    <button mat-menu-item>Quesos</button>
+    <button mat-menu-item>Fiambres</button>
+  </mat-menu> 
