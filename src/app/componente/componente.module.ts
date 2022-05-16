@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InicioComponent } from './inicio/inicio.component';
+import { MaterialModule } from '../meterial/material.module';
 
 
 
@@ -8,8 +9,12 @@ import { InicioComponent } from './inicio/inicio.component';
   declarations: [
     InicioComponent
   ],
+  exports: [
+    InicioComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule
   ]
 })
 export class ComponenteModule { }

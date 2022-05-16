@@ -18,9 +18,12 @@
         </button> 
       </mat-toolbar-row>
   
+      
+    </mat-toolbar>
+    <mat-toolbar class="nia2">
       <mat-toolbar-row>
         <button mat-stroked-button style="margin-right: 50px; margin-left: 50px;">Vacunos</button>
-        <button mat-stroked-button style="margin-right: 50px;">Avez</button>
+        <button mat-stroked-button style="margin-right: 50px;">Aves</button>
         <button mat-stroked-button style="margin-right: 50px;">Cerdos</button>
         <button mat-stroked-button style="margin-right: 50px;">Preparados</button>
         <button mat-stroked-button [matMenuTriggerFor]="menuFiambreria" style="margin-right: 50px;">Fiambreria</button>
@@ -29,7 +32,7 @@
         <button mat-stroked-button style="margin-right: 50px;">Ofertas</button>
         <button mat-stroked-button style="margin-right: 50px;">Locales</button>
       </mat-toolbar-row>
-    </mat-toolbar>
+    </mat-toolbar> 
   </p>
   <mat-menu #menuFiambreria="matMenu">
     <button mat-menu-item>Quesos</button>
