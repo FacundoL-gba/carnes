@@ -1,3 +1,21 @@
+  .mapa { 
+    margin-left: 400px;
+  }
+  .tam {
+    border-radius: 5px;
+  }
+  .textoh3 {
+    position: relative;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+  }
+  h2 {
+    position: relative;
+    text-align: center;
+    color: #062b64;
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif;
+  }
   h1 {
     position: relative;
     text-align: center;
@@ -8,6 +26,7 @@
   h3 {
       font-size: 23px;
       font-family: "Cormorant garamond", serif;
+      text-align: center;
   }
   
   p {
@@ -231,7 +250,7 @@
     padding: 0;
     border: none;
     background: #1562d4;
-  background: linear-gradient(0deg, #097dca 0%, #0936ca 100%);
+    background: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
   }
   .btn-5:hover {
     color: #0757cf;

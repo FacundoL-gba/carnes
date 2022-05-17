@@ -37,75 +37,22 @@
 	<div class="row">
 		<div class="container">
 	<div class="row">
-	    <div class="col-md-4">
-    		<div class="card mb">
-              <img class="card-img-top" src="https://statics.dinoonline.com.ar/imagenes/large_460x460/3300039_l.jpg" height="290" alt="Card image cap">
-              <div class="card-body mb">
-                <h3 class="card-title">Pata Y Muslo</h3>
-                <p class="card-text">$390 Por KG</p>
-                <p class="p2">Mínimo de compra: 1KG</p>
-                <button class="custom-btn btn-5"><span>Read More</span></button>
-              </div>
+    <div *ngFor="let oferta of ofertas" style="margin-bottom: 10px;"  class="col-md-4 tam">
+      <div class="card mb">
+            <img class="card-img-top" [src]="oferta.imagen" height="290" alt="Card image cap">
+            <div class="card-body mb">
+              <h3 class="card-title">{{oferta.nombre}}</h3>
+              <p class="card-text">{{oferta.oferta}}</p>
+              <p class="p2">{{oferta.cantidad}}</p>
+              <button class="custom-btn btn-5" style="margin-left: 85px; color: black;"><span>Ver Oferta</span></button>
             </div>
-        </div>
-        <div class="col-md-4">
-    		<div class="card mb">
-              <img class="card-img-top" src="https://raffe.com.ar/wp-content/uploads/2019/06/Tapa-Asado-Raffe.jpg" height="290" alt="Card image cap">
-              <div class="card-body mb">
-                <h3 class="card-title">Tapa De Asado</h3>
-                <p class="card-text">$1.100 Por KG</p>
-                <p class="p2">Mínimo de compra: 1KG</p>
-                <button class="custom-btn btn-5"><span>Read More</span></button>
-              </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-    		<div class="card mb">
-              <img class="card-img-top" src="https://jumboargentina.vtexassets.com/arquivos/ids/666115/Cuadril-De-Cerdo-1-31587.jpg?v=637672522427230000" height="290" alt="Card image cap">
-              <div class="card-body mb">
-                <h3 class="card-title">Cuadril de Cerdo</h3>
-                <p class="card-text">$795 Por KG</p>
-                <p class="p2">Mínimo de compra: 1KG</p>
-                <button class="custom-btn btn-5"><span>Read More</span></button>
-              </div>
-            </div>
-        </div>
-	</div>
-    <div class="row" style="margin-top: 10px;">
-	    <div class="col-md-4">
-    		<div class="card mb">
-              <img class="card-img-top" src="https://d1on8qs0xdu5jz.cloudfront.net/webapp/images/productos/b/0000000000/741.jpg" height="290" alt="Card image cap">
-              <div class="card-body mb">
-                <h3 class="card-title">Milanesas</h3>
-                <p class="card-text">$950 Por KG</p>
-                <p class="p2">Mínimo de compra: 1KG</p>
-                <button class="custom-btn btn-5"><span>Read More</span></button>
-              </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-    		<div class="card mb">
-              <img class="card-img-top" src="http://cdn.shopify.com/s/files/1/0003/6801/7418/products/Picadas5-1118-prev_1024x.jpg?v=1604956841" height="290" alt="Card image cap">
-              <div class="card-body mb">
-                <h3 class="card-title">Fiambres</h3>
-                <p class="card-text">$695 Combo Por Unidad</p>
-                <p class="p2">Mínimo de compra: 1U</p>
-                <button class="custom-btn btn-5"><span>Read More</span></button>
-              </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-    		<div class="card mb">
-              <img class="card-img-top" src="https://d1on8qs0xdu5jz.cloudfront.net/webapp/images/productos/b/0000002000/2336.jpg" height="290" alt="Card image cap">
-              <div class="card-body mb">
-                <h3 class="card-title">Asado Con Hueso</h3>
-                <p class="card-text">$1.200 Por KG</p>
-                <p class="p2">Mínimo de compra: 1KG</p>
-                <button class="custom-btn btn-5"><span>Read More</span></button>
-              </div>
-            </div>
-        </div>
-	</div>
-        </div>
-	</div>
+      </div>
+    </div>
+  </div>
+	  </div>
+  </div>
 </div>
+<h1 style="text-align: center;">Cobertura de entrega y retiro de pedidos online</h1>
+<h2>¡Cada vez más cerca tuyo!</h2>
+<h4 class="textoh3">Estos son los locales habilitados para el retiro de pedidos online y la cobertura de Delivery.</h4>
+<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2225.640343979034!2d13.437693825517432!3d-56.094139935362925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x275a617c3b82198a!2zNTbCsDA1JzM4LjkiUyAxM8KwMjYnMzAuOSJF!5e0!3m2!1ses-419!2sar!4v1652794027795!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
