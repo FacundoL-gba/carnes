@@ -4,10 +4,9 @@
         <img src="https://cdn-icons-png.flaticon.com/512/1702/1702771.png" height="40">
         <span style="margin-left: 10px;">Cornuda La Vaca</span>
         <span class="example-spacer"></span>
-        <span>Contactanos <a href="tel:#" style="color: white;">2995055050</a></span>
         <button mat-button [matMenuTriggerFor]="menu" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"><mat-icon>menu</mat-icon></button>
           <mat-menu #menu="matMenu">
-            <button mat-menu-item>Item 1</button>
+            <button mat-menu-item routerLink="/inicio">Inicio</button>
             <button mat-menu-item>Item 2</button>
           </mat-menu> 
         <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
@@ -22,8 +21,8 @@
     </mat-toolbar>
     <mat-toolbar class="nia2">
       <mat-toolbar-row>
-        <button mat-stroked-button style="margin-right: 50px; margin-left: 50px;">Vacunos</button>
-        <button mat-stroked-button style="margin-right: 50px;">Aves</button>
+        <button mat-stroked-button style="margin-right: 50px; margin-left: 50px;" routerLink="/vacunos">Vacunos</button>
+        <button mat-stroked-button style="margin-right: 50px;">Pollos</button>
         <button mat-stroked-button style="margin-right: 50px;">Cerdos</button>
         <button mat-stroked-button style="margin-right: 50px;">Preparados</button>
         <button mat-stroked-button [matMenuTriggerFor]="menuFiambreria" style="margin-right: 50px;">Fiambreria</button>

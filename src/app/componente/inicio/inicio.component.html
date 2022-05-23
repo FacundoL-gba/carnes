@@ -1,4 +1,4 @@
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="margin-left: 10px; margin-right: 10px; margin-bottom: 20px;">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="margin-left: 10px; margin-right: 10px; margin-bottom: 20px;">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -35,11 +35,9 @@
 <h1> ~ Ofertas de la semana ~ </h1>
 <div class="container" style="margin-top: 10px; margin-bottom: 20px;">
 	<div class="row">
-		<div class="container">
-	<div class="row">
     <div *ngFor="let oferta of ofertas" style="margin-bottom: 10px;"  class="col-md-4 tam">
       <div class="card mb">
-            <img class="card-img-top" [src]="oferta.imagen" height="290" alt="Card image cap">
+            <img class="card-img-top" [src]="oferta.imagen" height="250" alt="Card image cap">
             <div class="card-body mb">
               <h3 class="card-title">{{oferta.nombre}}</h3>
               <p class="card-text">{{oferta.oferta}}</p>
@@ -49,10 +47,8 @@
       </div>
     </div>
   </div>
-	  </div>
-  </div>
 </div>
-<h1 style="text-align: center;">Cobertura de entrega y retiro de pedidos online</h1>
-<h2>¡Cada vez más cerca tuyo!</h2>
-<h4 class="textoh3">Estos son los locales habilitados para el retiro de pedidos online y la cobertura de Delivery.</h4>
-<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2225.640343979034!2d13.437693825517432!3d-56.094139935362925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x275a617c3b82198a!2zNTbCsDA1JzM4LjkiUyAxM8KwMjYnMzAuOSJF!5e0!3m2!1ses-419!2sar!4v1652794027795!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <h1 style="text-align: center;">Cobertura de entrega y retiro de pedidos online</h1>
+  <h2>¡Cada vez más cerca tuyo!</h2>
+  <h4 class="textoh3">Estos son los locales habilitados para el retiro de pedidos online y la cobertura de Delivery.</h4>
+  <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2225.640343979034!2d13.437693825517432!3d-56.094139935362925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x275a617c3b82198a!2zNTbCsDA1JzM4LjkiUyAxM8KwMjYnMzAuOSJF!5e0!3m2!1ses-419!2sar!4v1652794027795!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
