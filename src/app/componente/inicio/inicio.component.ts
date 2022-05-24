@@ -8,42 +8,48 @@ import { Ofertas } from 'src/app/models/ofertas';
 })
 export class InicioComponent implements OnInit {
   public ofertas: Ofertas [] = []
-  constructor(){
+  constructor(){ 
     this.ofertas = [{
         nombre:'Pata Y Muslo',
-        oferta: '$390 Por KG',
+        precioa:'$390',
+        oferta: '$300 Por KG',
         cantidad: 'Mínimo de compra: 1KG',
-        imagen: 'https://statics.dinoonline.com.ar/imagenes/large_460x460/3300039_l.jpg'
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/p/a/pata-muslo.jpg'
       },
       {
         nombre:'Tapa De Asado',
-        oferta: '$1.100 Por KG',
+        precioa:'$1.100',
+        oferta: '$900 Por KG',
         cantidad: 'Mínimo de compra: 1KG',
-        imagen: 'https://raffe.com.ar/wp-content/uploads/2019/06/Tapa-Asado-Raffe.jpg'
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/t/a/tapa-de-asado.jpg'
       },
       {
         nombre:'Cuadril de Cerdo',
-        oferta: '$795 Por KG',
+        precioa:'$795',
+        oferta: '$700 Por KG',
         cantidad: 'Mínimo de compra: 1KG',
-        imagen: 'https://jumboargentina.vtexassets.com/arquivos/ids/666115/Cuadril-De-Cerdo-1-31587.jpg?v=637672522427230000'
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/c/u/cuadril-cerdo_1.jpg'
       },
       {
-        nombre:'Milanesas',
-        oferta: '$950 Por KG',
+        nombre:'Milanesa De Carne',
+        precioa:'$950',
+        oferta: '$800 Por KG',
         cantidad: 'Mínimo de compra: 1KG',
-        imagen: 'https://d1on8qs0xdu5jz.cloudfront.net/webapp/images/productos/b/0000000000/741.jpg'
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/m/i/milanesas-carne.jpg'
       },
       {
-        nombre:'Fiambres',
-        oferta: '$695 Combo Por Unidad',
+        nombre:'Picada Grande',
+        precioa:'$695',
+        oferta: '$600 Combo Por Unidad',
         cantidad: 'Mínimo de compra: 1U',
-        imagen: 'http://cdn.shopify.com/s/files/1/0003/6801/7418/products/Picadas5-1118-prev_1024x.jpg?v=1604956841'
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/p/i/picada-grande.jpg'
       },
       {
         nombre:'Asado Con Hueso',
-        oferta: '$1.200 Por KG',
+        precioa:'$1.200',
+        oferta: '$1.000 Por KG',
         cantidad: 'Mínimo de compra: 1KG',
-        imagen: 'https://d1on8qs0xdu5jz.cloudfront.net/webapp/images/productos/b/0000002000/2336.jpg'
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/a/s/asado-new.jpg'
       }
       ]
     }
