@@ -8,6 +8,7 @@ import { PollosComponent } from './productos/pollos/pollos.component';
 import { CerdosComponent } from './productos/cerdos/cerdos.component';
 import { CombosComponent } from './productos/combos/combos.component';
 import { OfertasComponent } from './productos/ofertas/ofertas.component';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 
 
@@ -32,7 +33,8 @@ import { OfertasComponent } from './productos/ofertas/ofertas.component';
   ],
   imports: [
     CommonModule,
-    MaterialModule
+    MaterialModule,
+    Ng2SearchPipeModule
   ]
 })
 export class ComponenteModule { }

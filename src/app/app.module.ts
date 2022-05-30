@@ -8,6 +8,7 @@ import { MaterialModule } from './meterial/material.module';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component'
 import { ComponenteModule } from './componente/componente.module';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ComponenteModule } from './componente/componente.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    ComponenteModule
+    ComponenteModule,
+    Ng2SearchPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

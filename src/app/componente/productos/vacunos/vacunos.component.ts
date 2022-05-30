@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Ofertas } from 'src/app/models/ofertas';
-
+import { Pagina } from 'src/app/models/paginas';
 
 @Component({
   selector: 'app-vacunos',
@@ -9,49 +8,73 @@ import { Ofertas } from 'src/app/models/ofertas';
 })
 export class VacunosComponent implements OnInit {
 
-  public ofertas: Ofertas [] = []
+  public ofertas: Pagina [] = []
   constructor(){ 
     this.ofertas = [{
-        nombre:'Pata Y Muslo',
-        precioa:'$390',
-        oferta: '$300 Por KG',
+        nombre:'Vacio',
+        precioa:'$1.690',
         cantidad: 'Mínimo de compra: 1KG',
-        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/p/a/pata-muslo.jpg'
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/v/a/vacio_2.jpg'
       },
       {
-        nombre:'Tapa De Asado',
-        precioa:'$1.100',
-        oferta: '$900 Por KG',
+        nombre:'Asado',
+        precioa:'$1.200',
         cantidad: 'Mínimo de compra: 1KG',
-        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/t/a/tapa-de-asado.jpg'
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/a/s/asado-new.jpg'
       },
       {
-        nombre:'Cuadril de Cerdo',
-        precioa:'$795',
-        oferta: '$700 Por KG',
+        nombre:'Bife Ancho',
+        precioa:'$1.390',
         cantidad: 'Mínimo de compra: 1KG',
         imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/c/u/cuadril-cerdo_1.jpg'
       },
       {
         nombre:'Milanesa De Carne',
-        precioa:'$950',
-        oferta: '$800 Por KG',
-        cantidad: 'Mínimo de compra: 1KG',
+        precioa:'$1.100',
+        cantidad: 'Mínimo de compra: 0.5KG',
         imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/m/i/milanesas-carne.jpg'
       },
       {
-        nombre:'Picada Grande',
-        precioa:'$695',
-        oferta: '$600 Combo Por Unidad',
+        nombre:'Colita De Cuadril',
+        precioa:'$2.100',
         cantidad: 'Mínimo de compra: 1U',
-        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/p/i/picada-grande.jpg'
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/c/o/colita_4.jpg'
       },
       {
-        nombre:'Asado Con Hueso',
-        precioa:'$1.200',
-        oferta: '$1.000 Por KG',
+        nombre:'Matambre',
+        precioa:'$1.100',
+        cantidad: 'Mínimo de compra: 1U',
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/p/e/peceto_5.jpg'
+      },
+      {
+        nombre:'Peceto',
+        precioa:'$2.100',
         cantidad: 'Mínimo de compra: 1KG',
         imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/a/s/asado-new.jpg'
+      },
+      {
+        nombre:'Tapa De Asado',
+        precioa:'$1.100',
+        cantidad: 'Mínimo de compra: 1U',
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/t/a/tapa-de-asado.jpg'
+      },
+      {
+        nombre:'Hamburguesas De Carne',
+        precioa:'$1.490',
+        cantidad: 'Mínimo de compra: 1KG',
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/h/a/hamburguesas-de-carne.jpg'
+      },
+      {
+        nombre:'Nalga',
+        precioa:'$1.850',
+        cantidad: 'Mínimo de compra: 0.5KG',
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/n/a/nalga_1.jpg'
+      },
+      {
+        nombre:'Milanesa De Peceto',
+        precioa:'$1.600',
+        cantidad: 'Mínimo de compra: 0.5KG',
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/m/i/milanesas-peceto.jpg'
       }
       ]
     }
