@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Ofertas } from 'src/app/models/ofertas';
 
+
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.component.html',
@@ -45,7 +46,7 @@ export class InicioComponent implements OnInit {
         imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/p/i/picada-grande.jpg'
       },
       {
-        nombre:'Asado Con Hueso',
+        nombre:'Asado',
         precioa:'$1.200',
         oferta: '$1.000 Por KG',
         cantidad: 'Mínimo de compra: 1KG',

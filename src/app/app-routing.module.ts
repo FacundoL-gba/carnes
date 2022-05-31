@@ -7,7 +7,8 @@ import { VacunosComponent } from './componente/productos/vacunos/vacunos.compone
 const routes: Routes = [
   {path: '', component:InicioComponent},
   {path: 'inicio', component:InicioComponent},
-  {path: 'vacunos', component:VacunosComponent}
+  {path: 'vacunos', component:VacunosComponent},
+  {path: 'search/:searchTem', component:InicioComponent}
 ];
 
 @NgModule({

@@ -44,13 +44,13 @@ export class VacunosComponent implements OnInit {
         nombre:'Matambre',
         precioa:'$1.100',
         cantidad: 'Mínimo de compra: 1U',
-        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/p/e/peceto_5.jpg'
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/m/a/matambre_2.jpg'
       },
       {
         nombre:'Peceto',
         precioa:'$2.100',
         cantidad: 'Mínimo de compra: 1KG',
-        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/a/s/asado-new.jpg'
+        imagen: 'https://www.res.com.ar/media/catalog/product/cache/fa1c797dc73bed0459232d1404671b73/p/e/peceto_5.jpg'
       },
       {
         nombre:'Tapa De Asado',
