@@ -1,5 +1,5 @@
   .borde {
-    border:1px solid #062b64 ;
+    border:1px solid #2C666E ;
   }
   .imagen {
     float: left;
@@ -18,14 +18,14 @@
   h2 {
     position: relative;
     text-align: center;
-    color: #062b64;
+    color: #0A090C;
     font-size: 40px;
     font-family: "Cormorant Garamond", serif;
   }
   h1 {
     position: relative;
     text-align: center;
-    color: #062b64;
+    color: #0A090C;
     font-size: 50px;
     font-family: "Cormorant Garamond", serif;
   }
@@ -86,11 +86,11 @@
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #1562d4;
+    background: #2C666E;
     background: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
   }
   .btn-5:hover {
-    color: #0757cf;
+    color: #2C666E;
     background: transparent;
      box-shadow:none;
   } 
@@ -102,7 +102,7 @@
     right:0;
     height:2px;
     width:0;
-    background: #0757cf;
+    background: #2C666E;
     box-shadow:
      -1px -1px 5px 0px #fff,
      7px 7px 20px 0px #0003,

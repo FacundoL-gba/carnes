@@ -1,6 +1,6 @@
 .site-footer
 {
-  background-color:#062b64;
+  background-color:#07393C;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -29,7 +29,7 @@
 }
 .site-footer a:hover
 {
-  color:#3366cc;
+  color:#90DDF0;
   text-decoration:none;
 }
 .footer-links
@@ -47,7 +47,7 @@
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#3366cc;
+  color:#90DDF0;
   text-decoration:none;
 }
 .footer-links.inline li
