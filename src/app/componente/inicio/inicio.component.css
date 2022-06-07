@@ -1,3 +1,23 @@
+  .fila a
+  {
+    font-size: 18px;
+    color:#07393C;
+  }
+  .fila a:hover
+  {
+    color:#000000;
+    text-decoration:none;
+  }
+  .fila{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .img {
+    height: 4rem;
+  }
+  .p3{
+    color: #07393C;
+  }
   .borde {
     border:1px solid #2C666E ;
   }
