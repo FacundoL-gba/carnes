@@ -9,6 +9,7 @@ import { CerdosComponent } from './productos/cerdos/cerdos.component';
 import { CombosComponent } from './productos/combos/combos.component';
 import { OfertasComponent } from './productos/ofertas/ofertas.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { Inicio2Component } from './inicio2/inicio2.component';
 
 
 
@@ -20,7 +21,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     PollosComponent,
     CerdosComponent,
     CombosComponent,
-    OfertasComponent
+    OfertasComponent,
+    Inicio2Component
   ],
   exports: [
     InicioComponent,

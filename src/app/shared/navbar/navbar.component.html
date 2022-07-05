@@ -2,8 +2,9 @@
     <mat-toolbar class="nia">
       <mat-toolbar-row>
         <img src="https://cdn-icons-png.flaticon.com/512/1702/1702822.png" height="40">
-        <span style="margin-left: 10px;">Cornuda La Vaca</span>
+        <span style="margin-left: 10px;">Carnes Patagonicas</span>
         <span class="example-spacer"></span>
+        <button mat-stroked-button [matMenuTriggerFor]="menuFiambreria">Mira Nuestros Productos</button>
         <button mat-icon-button routerLink="/inicio" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
           <mat-icon>home</mat-icon>     
         </button>
@@ -11,22 +12,12 @@
       </mat-toolbar-row>
       
       
-    </mat-toolbar>
-    <mat-toolbar class="nia2">
-      <mat-toolbar-row>
-        <button mat-stroked-button style="margin-right: 50px; margin-left: 50px;" routerLink="/vacunos">Vacunos</button>
-        <button mat-stroked-button style="margin-right: 50px;">Pollos</button>
-        <button mat-stroked-button style="margin-right: 50px;">Cerdos</button>
-        <button mat-stroked-button style="margin-right: 50px;">Preparados</button>
-        <button mat-stroked-button [matMenuTriggerFor]="menuFiambreria" style="margin-right: 50px;">Fiambreria</button>
-        <button mat-stroked-button style="margin-right: 50px;">Complementos</button>
-        <button mat-stroked-button style="margin-right: 50px;">Combos</button>
-        <button mat-stroked-button style="margin-right: 50px;">Ofertas</button>
-        <button mat-stroked-button style="margin-right: 50px;">Locales</button>
-      </mat-toolbar-row>
     </mat-toolbar> 
   </p>
   <mat-menu #menuFiambreria="matMenu">
-    <button mat-menu-item>Quesos</button>
+    <button mat-menu-item>Vacunos</button>
+    <button mat-menu-item>Pollos</button>
+    <button mat-menu-item>Cerdos</button>
     <button mat-menu-item>Fiambres</button>
+    <button mat-menu-item>Ofertas</button>
   </mat-menu> 
